@@ -3,7 +3,7 @@ import {SafeAreaView, StyleSheet} from 'react-native';
 import React, {useState} from 'react';
 import MapViewDirections from 'react-native-maps-directions';
 
-const API_KEY = 'AIzaSyAyXTFfzxlon-22ZWnHfphwRWdHBVgAXTM';
+const API_KEY = 'YOUR API KEY';
 const Map = ({route}: {route: any}) => {
   const [markers] = useState([
     {

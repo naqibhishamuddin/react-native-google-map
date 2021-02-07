@@ -4,7 +4,7 @@ import {GooglePlacesAutocomplete} from 'react-native-google-places-autocomplete'
 import Button from '../components/Button';
 import {heightPercentageToDP as hp} from 'react-native-responsive-screen';
 
-const API_KEY = 'AIzaSyAyXTFfzxlon-22ZWnHfphwRWdHBVgAXTM';
+const API_KEY = 'YOUR API KEY';
 const Pickup = ({navigation}: {navigation: any}) => {
   const [pickupLat, setPickupLat] = useState();
   const [pickupLang, setPickupLang] = useState();

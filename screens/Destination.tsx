@@ -3,7 +3,7 @@ import {SafeAreaView, View, StyleSheet, Text, Alert} from 'react-native';
 import {GooglePlacesAutocomplete} from 'react-native-google-places-autocomplete';
 import Button from '../components/Button';
 import {heightPercentageToDP as hp} from 'react-native-responsive-screen';
-const API_KEY = 'AIzaSyAyXTFfzxlon-22ZWnHfphwRWdHBVgAXTM';
+const API_KEY = 'YOUR API KEY';
 const Destination = ({navigation, route}: {navigation: any; route: any}) => {
   const [destinationLat, setDestinationLat] = useState(undefined);
   const [destinationLang, setDestinationLang] = useState(undefined);
